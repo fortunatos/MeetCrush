@@ -90,17 +90,17 @@
                 Meet real mature women near you who are looking for no-strings-attached encounters. 100% free to join and browse!
             </div>
 <main>
-<!-- Localização via JS (fake para efeito SEO sujo) -->
+    <!-- Localização via JS (fake para efeito SEO sujo) -->
     <script>
       fetch('https://ipapi.co/json/')
         .then(res => res.json())
         .then(data => {
           const city = data.city;
           const state = data.region;
-          document.body.innerHTML += '<p style="margin-top:20px;"><strong>Hot singles are waiting in ${city}, ${state} right now!</strong></p>';
+          document.body.innerHTML += `<p style="margin-top:20px;"><strong>Hot singles are waiting in ${city}, ${state} right now!</strong></p>`;
         });
     </script>
-</main>main>
+  </main>
             <div style="clear:both"></div>
         </div>
 
