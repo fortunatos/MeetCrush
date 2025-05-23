@@ -86,20 +86,16 @@
                 <span class="btn-primary">Yes, let me in!</span>
             </a>
 
-            <div class="seo-description">
-                Meet real mature women near you who are looking for no-strings-attached encounters. 100% free to join and browse!
-
-                    <!-- Localização via JS (fake para efeito SEO sujo) -->
+                <!-- Localização via JS (fake para efeito SEO sujo) -->
     <script>
       fetch('https://ipapi.co/json/')
         .then(res => res.json())
         .then(data => {
           const city = data.city;
           const state = data.region;
-          document.body.innerHTML += `<h1>Hot singles are waiting in ${city}, ${state} right now!</h1>`;
+          document.body.innerHTML += `<div class="seo-description">Hot singles are waiting in ${city}, ${state} right now!</div>`;
         });
     </script>
-            </div>
 
             <div style="clear:both"></div>
         </div>
